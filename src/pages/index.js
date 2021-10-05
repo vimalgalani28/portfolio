@@ -16,10 +16,12 @@ export default function Home() {
         <div className="bg-blue-900 h-full">
           <div className="grid md:grid-cols-2 md:gap-x-16 xs:grid-cols-1 items-center text-white h-full max-w-5xl mx-auto w-11/12 pb-5">
             <div className="xs:flex xs:flex-col xs:items-center md:block">
-              <StaticImage
-                src="../images/Vimal-1.jpg"
-                className="rounded-full md:hidden xs:block z-0 w-80"
-              />
+              <div className="xs:block md:hidden">
+                <StaticImage
+                  src="../images/Vimal-1.jpg"
+                  className="rounded-full z-0 w-80"
+                />
+              </div>
               <p className="heading2 bold md:text-left xs:text-center">
                 I'm Vimal Galani
               </p>
