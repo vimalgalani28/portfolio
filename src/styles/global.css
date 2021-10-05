@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #000;
+}
+
+button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: default;
+}
+
+.heading1 {
+  font-size: 61.04px;
+}
+
+.heading2 {
+  font-size: 48.83px;
+}
+
+.heading3 {
+  font-size: 39.06px;
+}
+
+.heading4 {
+  font-size: 31.25px;
+}
+
+.heading5 {
+  font-size: 25px;
+}
+
+.heading6 {
+  font-size: 20px;
+}
+
+.sub-heading {
+  font-size: 18px;
+}
+
+.sub-heading-s {
+  font-size: 14px;
+}
+
+.paragraph1 {
+  font-size: 16px;
+}
+
+.paragraph2 {
+  font-size: 14px;
+}
+
+.paragraph3 {
+  font-size: 12.8px;
+}
+
+.caption {
+  font-size: 10.24px;
+  line-height: 16px;
+}
+
+.serif {
+  font-family: Lora;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.regular {
+  font-weight: normal;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .heading1 {
+    font-size: 41.8px;
+  }
+
+  .heading2 {
+    font-size: 34.84px;
+  }
+
+  .heading3 {
+    font-size: 29.03px;
+  }
+
+  .heading4 {
+    font-size: 24.19px;
+  }
+
+  .heading5 {
+    font-size: 20.16px;
+  }
+
+  .heading6 {
+    font-size: 16.8px;
+  }
+
+  .sub-heading {
+    font-size: 16px;
+  }
+
+  .paragraph1 {
+    font-size: 14px;
+  }
+
+  .paragraph2 {
+    font-size: 11.67px;
+  }
+
+  .paragraph3 {
+    font-size: 9.72px;
+  }
+
+  .caption {
+    font-size: 8.1px;
+  }
+}

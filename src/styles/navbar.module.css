@@ -1,0 +1,7 @@
+.nav_item:hover .bottom {
+  visibility: visible;
+  transition: 0.5s;
+}
+.active .bottom {
+  visibility: visible;
+}
